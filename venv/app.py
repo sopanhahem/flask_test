@@ -13,10 +13,6 @@ def sopanha():
 @app.route("/tasmania")
 def tasmania():
     return "tasmania"
-
-@app.route("/australia")
-def australia():
-    return "australia"
-
+    
 if __name__ == '__main__':
     app.run(debug=True)
